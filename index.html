@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            margin: 0;
+        }
+        .container{
+            width: 100vw;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .sort{
+            width: 512px;
+            height: 512px;
+            outline: 1px solid black;
+            display: flex;
+            flex-wrap: wrap;
+            align-content: flex-start;
+            background-color: lightgray;
+            box-shadow: 2px 1px 10px 4px black;
+        }
+        #check{
+            margin: 0 4vw;
+            width: 100px;
+            height: 45px;
+            background-color: teal;
+            border: none;
+            color: white;
+            border-radius: 5px;
+        }
+        #check:focus{
+            outline: none;
+        }
+        #check:hover{
+           cursor: pointer;
+           background-color: crimson;
+        }
+        .sort div{
+            width: 128px;
+            height: 128px;
+        }
+.elem1{
+    background-image: url(arsenal.png);
+    background-position: 0 0;
+}
+.elem2{
+    background-image: url(arsenal.png);
+    background-position: -128px 0;
+}
+.elem3{
+    background-image: url(arsenal.png);
+    background-position: -256px 0;
+}
+.elem4{
+    background-image: url(arsenal.png);
+    background-position: -384px 0;
+}
+.elem5{
+    background-image: url(arsenal.png);
+    background-position: 0 -128px;
+}
+.elem6{
+    background-image: url(arsenal.png);
+    background-position: -128px -128px;
+}
+.elem7{
+    background-image: url(arsenal.png);
+    background-position: -256px -128px;
+}
+.elem8{
+    background-image: url(arsenal.png);
+    background-position: -384px -128px;
+}
+.elem9{
+    background-image: url(arsenal.png);
+    background-position: 0 -256px;
+}
+.elem10{
+    background-image: url(arsenal.png);
+    background-position: -128px -256px;
+}
+.elem11{
+    background-image: url(arsenal.png);
+    background-position: -256px -256px;
+}
+.elem12{
+    background-image: url(arsenal.png);
+    background-position: -384px -256px;
+}
+.elem13{
+    background-image: url(arsenal.png);
+    background-position: 0 -384px;
+}
+.elem14{
+    background-image:url(arsenal.png);
+    background-position: -128px -384px;
+}
+.elem15{
+    background-image: url(arsenal.png);
+    background-position: -256px -384px;
+}
+.elem16{
+    background-image: url(arsenal.png);
+    background-position: -384px -384px;
+}
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="sort  test" id="start">
+            <div class="block"></div>
+            <div class="block"></div>
+            <div class="block"></div>
+            <div class="block"></div>
+            <div class="block"></div>
+            <div class="block"></div>
+            <div class="block"></div>
+            <div class="block"></div>
+            <div class="block"></div>
+            <div class="block"></div>
+            <div class="block"></div>
+            <div class="block"></div>
+            <div class="block"></div>
+            <div class="block"></div>
+            <div class="block"></div>
+            <div class="block"></div>
+        </div>
+            <button id="check">CHECK</button>
+        
+            <div class="sort" id="stop" >
+            <div class="block2 test 1"></div>
+            <div class="block2 test 2"></div>
+            <div class="block2 test 3"></div>
+            <div class="block2 test 4"></div>
+            <div class="block2 test 5"></div>
+            <div class="block2 test 6"></div>
+            <div class="block2 test 7"></div>
+            <div class="block2 test 8"></div>
+            <div class="block2 test 9"></div>
+            <div class="block2 test 10"></div>
+            <div class="block2 test 11"></div>
+            <div class="block2 test 12"></div>
+            <div class="block2 test 13"></div>
+            <div class="block2 test 14"></div>
+            <div class="block2 test 15"></div>
+            <div class="block2 test 16"></div>
+            </div>
+        </div>
+    
+        <script src="jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+    <script src="script.js"></script>
+    </body>
+</html>
